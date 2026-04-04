@@ -1,0 +1,228 @@
+@font-face {
+  font-family: "Avenir";
+  src: url("../fonts/AvenirLight.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("../fonts/AvenirRegular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("../fonts/AvenirHeavy.ttf");
+  font-weight: 800;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /*background: black;*/
+  font-family: "Avenir", sans-serif;
+}
+
+.home {
+  min-height: 100vh;
+  position: relative;
+  background: black;
+  background-image: url("../images/home-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #CBCBCB;
+}
+
+.menubar {
+  position: absolute;
+  top: 60px;
+  left: 70px;
+  display: flex;
+  gap: 70px;
+}
+
+.menubar a {
+  color: #CBCBCB;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 300;
+  transition: 0.3s;
+}
+
+.menubar a:hover {
+  opacity: 0.6;
+}
+
+.home-content {
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.home-content h1 {
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 18px;
+  transform: translateY(-19px);
+}
+
+.home-content p {
+  font-size: 34px;
+  font-weight: 300;
+  transform: translateY(-42px);
+}
+
+.home-footer {
+  position: absolute;
+  bottom: 40px;
+  left: 70px;
+}
+
+.home-footer p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+/* About page */
+
+body:has(.about) {
+  background: #CBCBCB;
+}
+
+body:has(.about) .menubar a {
+  color: black;
+}
+
+.about {
+  padding: 160px 70px 80px 70px;
+  color: black;
+}
+
+.about-container {
+  max-width: 1500px;
+  margin: 0;
+  display: grid;
+  grid-template-columns: minmax(600px, 950px) 300px;
+  gap: 60px;
+  align-items: start;
+}
+
+.about-text h1 {
+  font-size: 23px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.about-intro {
+  font-size: 23px;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+
+.about-text p {
+  font-size: 23px;
+  font-weight: 300;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  max-width: 950px;
+
+}
+
+.about-image img {
+  width: 275px;
+  height: auto;
+}
+
+/* Education */
+.education {
+  max-width: 1200px;
+  margin-top: 100px ;
+  padding-left: 70px;
+  color: black;
+}
+
+.education h2 {
+  font-size: 23px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.education-item {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  margin-bottom: 18px;
+  font-size: 23px;
+}
+
+.education-item strong {
+  font-weight: 800;
+}
+
+/* Skills */
+.skills {
+  max-width: 1200px;
+  margin-top: 100px ;
+  padding-left: 70px;
+  color: black;
+}
+
+.skills h2 {
+  font-size: 23px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.skills-column h3 {
+  font-size: 23px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.skills-column p {
+  font-size: 23px;
+  font-weight: 800;
+  margin-bottom: 6px;
+}
+
+/* CV */
+.cv {
+  max-width: 1200px;
+  margin-top: 100px ;
+  padding-left: 70px;
+  font-weight: 800;
+  color: black;
+  cursor: pointer;
+}
+
+/* Footer */
+.footer {
+  background: #B6B6B6;
+  padding: 40px 70px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: black;
+}
+
+.footer a {
+  color: black;
+  text-decoration: underline;
+}
