@@ -147,7 +147,7 @@ body:has(.about) .menubar a {
 /* Education */
 .education {
   max-width: 1500px;
-  margin-top: 23px ;
+  margin-top: 20px ;
   padding-left: 70px;
   color: black;
 }
@@ -172,7 +172,7 @@ body:has(.about) .menubar a {
 
 /* Skills */
 .skills {
-  max-width: 1200px;
+  max-width: 1500px;
   margin-top: 100px ;
   padding-left: 70px;
   color: black;
@@ -192,13 +192,13 @@ body:has(.about) .menubar a {
 
 .skills-column h3 {
   font-size: 23px;
-  font-weight: 300;
+  font-weight: 800;
   margin-bottom: 15px;
 }
 
 .skills-column p {
   font-size: 23px;
-  font-weight: 800;
+  font-weight: 300;
   margin-bottom: 6px;
 }
 
