@@ -245,12 +245,20 @@ body:has(.about) .menubar a {
 /* CV */
 .cv {
   max-width: 1200px;
-  margin-top: 100px ;
+  margin-top: 100px;
   padding-left: 70px;
   font-size: 23px;
   font-weight: 800;
   color: black;
   cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.cv img {
+  width: 34px;
+  height: auto;
 }
 
 /* Footer */
