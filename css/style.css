@@ -30,7 +30,7 @@ body {
 .home {
   min-height: 100vh;
   position: relative;
-  background: red;
+  background: black;
   background-image: url("../images/home-bg.png");
   background-size: cover;
   background-position: center;
@@ -170,7 +170,7 @@ body:has(.about) .menubar a {
   max-width: 1200px;
   margin-top: 100px ;
   padding-left: 70px;
-  color: black;
+  color: red;
 }
 
 .skills h2 {
