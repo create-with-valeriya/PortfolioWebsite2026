@@ -128,7 +128,7 @@
    <img src="images/cvuploadimage.png" alt="upload">
   </a>
 
-    <!-- Footer -->
+    <!-- Footer
   <div class="footer">
     <div class="footer-container">
       
@@ -144,12 +144,22 @@
 
       <div>
         <p class="footer-title">Social media</p>
-        <a href="https://www.instagram.com/create.with.vb/">Instagram</a>
+        <a href="#">Instagram</a>
       </div>
       
-    </div>
+    </div> 
     
-  </div>
+  </div> -->
+
+  <div id="footer-placeholder"></div>
+
+ <script>
+  fetch("footer.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("footer-placeholder").innerHTML = data;
+    });
+ </script>
 
 </body>
 </html>
