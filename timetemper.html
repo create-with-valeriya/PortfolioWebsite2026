@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TimeTemper — Valeriya Borissova</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="light-page">
+
+  <!-- Menu -->
+  <nav class="menubar">
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="mailto:create.with.valeriya@gmail.com">Contact</a>
+  </nav>
+
+  <!-- TimeTemper hero image -->
+  <section class="timetemper-hero">
+    <img src="images/timetemper-main.jpg" alt="TimeTemper main image">
+  </section>
+
+  <!-- TimeTemper content -->
+  <section class="timetemper-content">
+
+    <h1 class="timetemper-title">TimeTemper</h1>
+
+    <!-- Top info row -->
+    <div class="timetemper-info">
+      <div>
+        <p class="timetemper-info-title">Personal Project</p>
+        <p>Time Arcade Machine</p>
+      </div>
+
+      <div>
+        <p class="timetemper-info-title">Language</p>
+        <p>C/C++</p>
+      </div>
+
+      <div>
+        <p class="timetemper-info-title">Year</p>
+        <p>2025</p>
+      </div>
+    </div>
+
+    <!-- Hardware -->
+    <div class="timetemper-description">
+      <p class="timetemper-label">Hardware</p>
+      <p class="timetemper-body-text">
+        Arduino · NeoPixel LED strip · LCD display · Arcade buttons · Custom-built enclosure
+      </p>
+    </div>
+
+    <!-- Project description -->
+    <div class="timetemper-project-description">
+      <p class="timetemper-body-text">
+        <strong>Real-time embedded system exploring time perception.</strong>
+      </p>
+
+      <p class="timetemper-body-text">
+        TimeTemper is a real-time arcade system where users memorise and reproduce colour sequences under changing speed conditions.
+        The system evaluates input timing and accuracy to control progression across stages. Each round increases difficulty by adjusting speed and sequence complexity.
+      </p>
+
+      <p class="timetemper-body-text">
+        The project explores how people experience the same amount of time differently due to individual differences in internal clock pace.
+        It shows that the same duration can feel significantly shorter or longer depending on the person.
+      </p>
+    </div>
+
+    <!-- System Logic + image -->
+    <div class="timetemper-grid">
+
+      <div class="timetemper-text">
+        <p class="timetemper-label">System Logic</p>
+
+        <ul class="timetemper-list">
+          <li>Implemented as a finite-state machine</li>
+          <li>Multi-stage gameplay</li>
+          <li>Speed modes</li>
+          <li>Level progression logic</li>
+          <li>Real-time feedback</li>
+          <li>System reset logic</li>
+        </ul>
+      </div>
+
+      <div class="timetemper-image">
+        <img src="images/timetemper-2.jpg" alt="TimeTemper system image">
+      </div>
+
+    </div>
+    
+    <!-- Vimeo embed -->
+    <div class="timetemper-video">
+      <iframe
+        src="https://player.vimeo.com/video/1143660551"
+        allow="autoplay; fullscreen; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <!-- Bottom images -->
+    <div class="timetemper-images-vertical">
+      <img src="images/timetemper-3.jpg" alt="TimeTemper image 3">
+      <img src="images/timetemper-4.jpg" alt="TimeTemper image 4">
+      <img src="images/timetemper-5.jpg" alt="TimeTemper image 5">
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <div id="footer-placeholder"></div>
+
+  <script>
+    fetch("footer.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById("footer-placeholder").innerHTML = data;
+      });
+  </script>
+
+</body>
+</html>
