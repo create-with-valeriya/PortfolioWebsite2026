@@ -572,3 +572,9 @@ body:has(.about) .menubar a {
   margin-bottom: 0;
 }
 
+.timetemper-video,
+.timetemper-images-vertical {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
