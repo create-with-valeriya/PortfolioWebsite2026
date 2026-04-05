@@ -266,6 +266,7 @@ body:has(.about) .menubar a {
   background: #B6B6B6;
   margin-top: 120px ;
   padding: 40px 70px 190px 70px;
+  position: relative;
 }
 
 .footer-container {
@@ -295,6 +296,14 @@ body:has(.about) .menubar a {
 .footer a:hover {
   opacity: 0.6;
   transition: 0.3s;
+}
+
+.footer-bottom {
+  position: absolute;
+  left: 70px;
+  bottom: 40px;
+  font-size: 16px;
+  color:  #4B4B4B;
 }
 
 /* Projects page */
