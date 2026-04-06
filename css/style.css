@@ -727,7 +727,7 @@ body:has(.about) .menubar a {
 
 
 
-
+/* IPHONE  */
 .mobile-block {
   display: none;
 }
@@ -753,10 +753,13 @@ body:has(.about) .menubar a {
   }
 
   .mobile-block p {
-    position: relative;
+    position: absolute;
+    top: 40%; /* регулируешь высоту */
+    left: 50%;
+    transform: translate(-50%, -50%);
     color:#CBCBCB;
-    font-size: 18px;
-    font-weight: 300;
+    font-size: 23px;
+    font-weight: 400;
     z-index: 2;
   }
 
