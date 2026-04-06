@@ -734,31 +734,25 @@ body:has(.about) .menubar a {
 }
 
 @media (max-width: 768px) {
-
   .mobile-block {
     display: flex;
-    flex-direction: column;
     position: fixed;
     inset: 0;
-    background: black;
+    background-image: url("../images/home-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding: 20px;
     z-index: 9999;
-    gap: 20px;
-  }
-
-  .mobile-block img {
-    width: 80%;
-    max-width: 300px;
-    height: auto;
-    opacity: 0.9;
   }
 
   .mobile-block p {
     color: white;
     font-size: 18px;
+    font-weight: 300;
   }
 
   body > *:not(.mobile-block) {
