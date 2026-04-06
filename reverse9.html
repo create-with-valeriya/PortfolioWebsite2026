@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Reverse9 — Valeriya Borissova</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="light-page">
+
+  <!-- Menu -->
+  <nav class="menubar">
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="mailto:create.with.valeriya@gmail.com">Contact</a>
+  </nav>
+
+  <!-- Reverse9 hero image -->
+  <section class="reverse9-hero">
+    <img src="images/reverse9-main.jpg" alt="Reverse9 main image">
+  </section>
+
+  <!-- Reverse9 content -->
+  <section class="reverse9-content">
+
+    <h1 class="reverse9-title">Reverse 9</h1>
+
+    <!-- Top info row -->
+    <div class="reverse9-info">
+      <div>
+        <p class="reverse9-info-title">Personal Project</p>
+        <p>Digital Mirror Installation</p>
+      </div>
+
+      <div>
+        <p class="reverse9-info-title">Language</p>
+        <p>Python</p>
+      </div>
+
+      <div>
+        <p class="reverse9-info-title">Year</p>
+        <p>2025</p>
+      </div>
+    </div>
+
+    <!-- Tech Stack -->
+    <div class="reverse9-description">
+      <p class="reverse9-label">Tech Stack</p>
+      <p class="reverse9-body-text">
+        OpenCV · MediaPipe FaceMesh · DeepFace · InsightFace · Predictive model · Real time processing
+      </p>
+    </div>
+
+    <!-- Project description -->
+    <div class="reverse9-project-description">
+      <p class="reverse9-body-text">
+        <strong>Interactive system exploring how social media platforms transform cognition, behaviour and personal identity.</strong>
+      </p>
+
+      <p class="reverse9-body-text">
+        Reverse9 is an immersive installation where the viewer’s face is captured, analysed and transformed into one of nine personalised visual outcomes. The system processes live facial input through a predictive model and assigns one of nine categories, each linked to a custom designed illustration. The final output integrates the viewer’s face into the selected visual, producing a personalised result. Each image shows how social media transforms the current viewer.
+      </p>
+
+      <p class="reverse9-body-text">
+        All visuals are based on original illustrations created specifically for the installation.
+      </p>
+    </div>
+
+    <!-- System Logic + image -->
+    <div class="reverse9-grid">
+
+      <div class="reverse9-text">
+        <p class="reverse9-label">System Logic</p>
+
+        <ul class="reverse9-list">
+          <li>Implemented as a finite state machine</li>
+          <li>Asynchronous backend processing</li>
+          <li>Real time video processing</li>
+          <li>Face tracking and landmark detection</li>
+          <li>Custom predictive logic</li>
+          <li>ML models for analysis and reconstruction</li>
+        </ul>
+      </div>
+
+      <div class="reverse9-image">
+        <img src="images/reverse9-2.jpg" alt="Reverse9 system image">
+      </div>
+
+    </div>
+
+    <!-- Two portrait Vimeo embeds -->
+    <div class="reverse9-video-row">
+      <div class="reverse9-video-box">
+        <iframe
+          src="https://player.vimeo.com/video/1114692525"
+          allow="autoplay; fullscreen; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+      <div class="reverse9-video-box">
+        <iframe
+          src="https://player.vimeo.com/video/1114690859"
+          allow="autoplay; fullscreen; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+
+    <!-- Bottom images -->
+    <div class="reverse9-images-vertical">
+      <img src="images/reverse9-3.jpg" alt="Reverse9 image 3">
+      <img src="images/reverse9-4.jpg" alt="Reverse9 image 4">
+      <img src="images/reverse9-5.jpg" alt="Reverse9 image 5">
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <div id="footer-placeholder"></div>
+
+  <script>
+    fetch("footer.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById("footer-placeholder").innerHTML = data;
+      });
+  </script>
+
+</body>
+</html>
