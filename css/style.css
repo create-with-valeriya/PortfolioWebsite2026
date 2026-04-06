@@ -754,14 +754,14 @@ body:has(.about) .menubar a {
 
   .mobile-block p {
     position: absolute;
-    top: 45%; /* регулируешь высоту */
+    top: 45%; /* h */
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
     text-align: center;
-    color:#CBCBCB;
-    font-size: 19px;
-    font-weight: 400;
+    color:#4B4B4B;
+    font-size: 14px;
+    font-weight: 300;
     z-index: 2;
   }
 
