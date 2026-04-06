@@ -754,7 +754,7 @@ body:has(.about) .menubar a {
 
   .mobile-block p {
     position: absolute;
-    top: 40%; /* регулируешь высоту */
+    top: 45%; /* регулируешь высоту */
     left: 50%;
     transform: translate(-50%, -50%);
     color:#CBCBCB;
