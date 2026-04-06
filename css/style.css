@@ -760,8 +760,8 @@ body:has(.about) .menubar a {
     margin: 0;
     text-align: center;
     color:#4B4B4B;
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 18px;
+    font-weight: 400;
     z-index: 2;
   }
 
