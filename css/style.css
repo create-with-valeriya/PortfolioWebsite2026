@@ -722,3 +722,88 @@ body:has(.about) .menubar a {
   margin-left: auto;
   margin-right: auto;
 }
+
+
+/* IPHONE */
+@media (max-width: 768px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .menubar {
+    position: static;
+    padding: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .home-content,
+  .about,
+  .projects-page,
+  .timetemper-content,
+  .reverse9-content,
+  .education,
+  .skills,
+  .cv,
+  .footer {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  .about-container,
+  .skills-grid,
+  .timetemper-grid,
+  .reverse9-grid,
+  .reverse9-video-row,
+  .footer-container,
+  .project-images,
+  .timetemper-info,
+  .reverse9-info {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 20px;
+  }
+
+  .reverse9-video-box,
+  .about-image img,
+  .timetemper-image img,
+  .reverse9-image img,
+  .project-images img,
+  .two-images img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  .home-content {
+    position: static;
+    transform: none;
+    padding-top: 140px !important;
+    text-align: center;
+  }
+
+  .home-content h1,
+  .timetemper-title,
+  .reverse9-title {
+    font-size: 44px !important;
+    margin-top: 0 !important;
+    transform: none !important;
+  }
+
+  .home-content p,
+  .about-text p,
+  .education-item,
+  .skills-column p,
+  .timetemper-body-text,
+  .reverse9-body-text,
+  .timetemper-info p,
+  .reverse9-info p {
+    font-size: 18px !important;
+  }
+
+  iframe,
+  img {
+    max-width: 100%;
+  }
+}
