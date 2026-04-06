@@ -728,31 +728,36 @@ body:has(.about) .menubar a {
 
 
 
-/* IPHONE */
 .mobile-block {
   display: none;
 }
 
 @media (max-width: 768px) {
+
   .mobile-block {
     display: flex;
     position: fixed;
     inset: 0;
-    background-image: url("../images/home-bg.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: black;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    padding: 20px;
+    overflow: hidden;
     z-index: 9999;
   }
 
+  .mobile-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
   .mobile-block p {
-    color: white;
+    position: relative;
+    color:#CBCBCB;
     font-size: 18px;
     font-weight: 300;
+    z-index: 2;
   }
 
   body > *:not(.mobile-block) {
