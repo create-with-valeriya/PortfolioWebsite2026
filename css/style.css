@@ -783,7 +783,5 @@ body:has(.about) .menubar a {
     z-index: 2;
   }
 
-  body > *:not(.mobile-block) {
-    display: none;
-  }
+  
 }
