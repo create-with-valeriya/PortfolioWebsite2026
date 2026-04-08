@@ -692,12 +692,13 @@ body:has(.about) .menubar a {
   margin-right: auto;
   margin-bottom: 40px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   gap: 40px;
 }
 
 .reverse9-video-box {
-  width: calc(50% - 20px);
+  width: 420px;
+  flex-shrink: 0;
 }
 
 .reverse9-video-box iframe {
