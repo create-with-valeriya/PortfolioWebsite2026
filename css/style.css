@@ -726,6 +726,23 @@ body:has(.about) .menubar a {
 
 
 
+/*Coming Soon page */
+
+.coming-soon {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #B6B6B6;
+}
+
+.coming-soon h1 {
+  font-size: 80px;
+  font-weight: 800;
+  color: black;
+}
+
+
 
 /* IPHONE  */
 .mobile-block {
